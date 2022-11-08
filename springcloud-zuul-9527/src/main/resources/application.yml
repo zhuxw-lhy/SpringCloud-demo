@@ -1,0 +1,20 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: springcloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-7001.com:7001/eureka/,http://eureka-7002.com:7002/eureka/,http://eureka-7003.com:7003/eureka/
+  instance:
+    instance-id: springcloud-zuul-9527
+    prefer-ip-address: true
+info:
+  app.name: zhuxiaowu
+zuul:
+  routes:
+    my.serviceId: provider-dept
+    my.path: /my/**
+  ignored-services: provider-dept #不能再使用这个路径访问 "*" 隐藏全部的真实项目名
+  prefix: "/zxw" #添加一个统一的前缀

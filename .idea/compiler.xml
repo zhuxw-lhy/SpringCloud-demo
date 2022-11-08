@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-zuul-9527" />
+        <module name="springcloud-eureka-7003" />
+        <module name="springcloud-eureka-7002" />
+        <module name="springcloud-eureka-7001" />
+        <module name="provider-dept-01" />
+        <module name="provider-dept-02" />
+        <module name="provider-dept-03" />
+        <module name="provider-dept-hystrix-01" />
+        <module name="provider-dept-hystrix-dashboard" />
+        <module name="API" />
+        <module name="springcloud-config-server-3344" />
+        <module name="springcloud-config-client" />
+        <module name="consumer-dept-80" />
+        <module name="consumer-dept-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="provider-dept-8081" target="8" />
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="provider-dept-8081" options="" />
+    </option>
+  </component>
+</project>

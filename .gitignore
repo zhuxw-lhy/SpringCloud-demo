@@ -1,0 +1,15 @@
+# Project exclude paths
+/API/target/
+/consumer-dept-8082/target/
+/consumer-dept-feign/target/
+/provider-dept-01/target/
+/provider-dept-02/target/
+/provider-dept-03/target/
+/provider-dept-hystrix-01/target/
+/provider-dept-hystrix-dashboard/target/
+/springcloud-config-client/target/
+/springcloud-config-server-3344/target/
+/springcloud-eureka-7001/target/
+/springcloud-eureka-7002/target/
+/springcloud-eureka-7003/target/
+/springcloud-zuul-9527/target/
