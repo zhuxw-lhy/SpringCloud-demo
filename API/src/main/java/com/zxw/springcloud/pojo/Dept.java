@@ -26,7 +26,7 @@ import java.io.Serializable;
 public class Dept implements Serializable {//Dept 实体类  orm 类表关系映射
 
     private Long deptno;
-
+//吱吱吱吱
     private String dname;
 
     //这个数据存在哪个数据库的字段 ~微服务 一个服务对应一个数据库，同一个信息可能存在不同的数据库中
